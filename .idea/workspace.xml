@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ee2eea-44ee-4c9b-a1ff-a0092cc45e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqinagz/java/WindowTest1.java" afterDir="false" />
+    <list default="true" id="d0ee2eea-44ee-4c9b-a1ff-a0092cc45e40" name="Default Changelist" comment="synchronized线程同步以及死锁的发生">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/day01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqiangz/java/WindowTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqiangz/java/WindowTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqiangz/java1/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqiangz/java1/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqiangz/java1/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/src/com/yuqiangz/java1/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/src/com/yuqinagz/java/WindowTest1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\intellJ_IDEA\JavaCode\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1WXZVgdo70ZiqLa8FnrWV6Rgxy9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,9 +45,63 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day01/src/com/yuqiangz/java1" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intellJ_IDEA\JavaCode\day01\src\com\yuqiangz\java1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ThreadTest">
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java1.ThreadTest" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuqiangz.java1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuqinagz.java.WindowTest1" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuqinagz.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuqinagz.java.WindowTest3" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuqinagz.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.WindowTest3" />
+        <item itemvalue="Application.WindowTest1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,21 +125,124 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579297924502</updated>
-      <workItem from="1579297927738" duration="260000" />
+      <workItem from="1579297927738" duration="9550000" />
     </task>
+    <task id="LOCAL-00001" summary="正式的使用版本控制持续管理代码">
+      <created>1579298248041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579298248041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="正式的使用版本控制持续管理代码" />
+    <MESSAGE value="synchronized线程同步以及死锁的发生" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized线程同步以及死锁的发生" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="810" y="152" key="FileChooserDialogImpl" timestamp="1579298121993">
+    <state x="619" y="0" key="CommitChangelistDialog2" timestamp="1579307486093">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="810" y="152" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1579298121993" />
+    <state x="619" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579307486093" />
+    <state x="810" y="152" key="FileChooserDialogImpl" timestamp="1579298735368">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="810" y="152" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1579298735368" />
+    <state width="435" height="174" key="Git.Branch.Popup" timestamp="1579299746537">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="435" height="174" key="Git.Branch.Popup/0.0.1536.834@0.0.1536.834" timestamp="1579299746537" />
+    <state width="697" height="279" key="GridCell.Tab.0.bottom" timestamp="1579306312700">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="697" height="279" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579306312700" />
+    <state width="697" height="279" key="GridCell.Tab.0.center" timestamp="1579306312700">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="697" height="279" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1579306312700" />
+    <state width="697" height="279" key="GridCell.Tab.0.left" timestamp="1579306312700">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="697" height="279" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1579306312700" />
+    <state width="697" height="279" key="GridCell.Tab.0.right" timestamp="1579306312700">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="697" height="279" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1579306312700" />
+    <state width="1495" height="234" key="GridCell.Tab.1.bottom" timestamp="1579300918038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="234" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579300918038" />
+    <state width="1495" height="234" key="GridCell.Tab.1.center" timestamp="1579300918038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="234" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1579300918038" />
+    <state width="1495" height="234" key="GridCell.Tab.1.left" timestamp="1579300918038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="234" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1579300918038" />
+    <state width="1495" height="234" key="GridCell.Tab.1.right" timestamp="1579300918038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="234" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1579300918038" />
+    <state x="626" y="139" key="Vcs.Push.Dialog.v2" timestamp="1579298578327">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="626" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579298578327" />
+    <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579298699953">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1579298699953" />
     <state x="189" y="0" key="new project wizard" timestamp="1579298009455">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="189" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1579298009455" />
+    <state x="828" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1579303896232">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="828" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1579303896232" />
   </component>
 </project>
