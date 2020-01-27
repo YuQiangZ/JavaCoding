@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ee2eea-44ee-4c9b-a1ff-a0092cc45e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day02/day02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/exer/StringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/exer/StringDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/exer/StringDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/java/DataTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/java/JDK8DateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/stringclass/DataTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/stringclass/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/day03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/exer1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/exer1/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/exer1/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/java/SeasonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/java1/CollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/src/com/yuqiangz/java/DataTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/java/DataTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -72,50 +72,47 @@
       <recent name="E:\intellJ_IDEA\JavaCode\day01\src\com\yuqiangz\java1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JDK8DateTimeTest.test3">
-    <configuration name="DataTimeTest.testCalendar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02" />
+  <component name="RunManager" selected="JUnit.EmployeeTest.test2">
+    <configuration name="SeasonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.SeasonTest" />
+      <module name="day03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yuqiangz.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuqiangz.java" />
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.DataTimeTest" />
-      <option name="METHOD_NAME" value="testCalendar" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTimeTest.testExer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02" />
+    <configuration name="EmployeeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuqiangz.java.*" />
+          <option name="PATTERN" value="com.yuqiangz.exer1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuqiangz.java" />
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.DataTimeTest" />
-      <option name="METHOD_NAME" value="testExer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDK8DateTimeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuqiangz.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yuqiangz.java" />
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.JDK8DateTimeTest" />
+      <option name="PACKAGE_NAME" value="com.yuqiangz.exer1" />
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.exer1.EmployeeTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuqiangz.exer1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuqiangz.exer1" />
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.exer1.EmployeeTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeTest.test2" />
+        <item itemvalue="JUnit.EmployeeTest.test1" />
+        <item itemvalue="Application.SeasonTest" />
         <item itemvalue="JUnit.JDK8DateTimeTest.test3" />
         <item itemvalue="JUnit.JDK8DateTimeTest.test2" />
-        <item itemvalue="JUnit.JDK8DateTimeTest.test1" />
-        <item itemvalue="JUnit.DataTimeTest.testCalendar" />
-        <item itemvalue="JUnit.DataTimeTest.testExer" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +191,10 @@
       <workItem from="1579502441192" duration="3690000" />
       <workItem from="1579514656856" duration="34000" />
       <workItem from="1579522407521" duration="4276000" />
-      <workItem from="1579568453566" duration="3884000" />
+      <workItem from="1579568453566" duration="8017000" />
+      <workItem from="1579833860774" duration="664000" />
+      <workItem from="1579834586747" duration="1875000" />
+      <workItem from="1579928400277" duration="6167000" />
     </task>
     <task id="LOCAL-00001" summary="正式的使用版本控制持续管理代码">
       <created>1579298248041</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579413636645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="还差一个compare没写">
+      <created>1579572419756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579572419756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,45 +304,50 @@
     <MESSAGE value="synchronized线程同步以及死锁的发生" />
     <MESSAGE value="synchronized线程同步以及死锁的发生&#10;#有两个警告" />
     <MESSAGE value="day01主要是关于java多线程的代码说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="day01主要是关于java多线程的代码说明" />
+    <MESSAGE value="还差一个compare没写" />
+    <option name="LAST_COMMIT_MESSAGE" value="还差一个compare没写" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1579412770157">
+    <state x="-55" y="69" key="#Inspections" timestamp="1579576739534">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1579412770157" />
-    <state x="707" y="0" key="CommitChangelistDialog2" timestamp="1579413635398">
+    <state x="-55" y="69" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1579576739534" />
+    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1580007954313">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="707" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579413635398" />
-    <state x="294" y="63" width="1228" height="694" key="DiffContextDialog" timestamp="1579307747740">
+    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1580007954313" />
+    <state x="707" y="0" key="CommitChangelistDialog2" timestamp="1579572417863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="294" y="63" width="1228" height="694" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1579307747740" />
+    <state x="707" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579572417863" />
+    <state x="294" y="63" width="1228" height="694" key="DiffContextDialog" timestamp="1579572870593">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="294" y="63" width="1228" height="694" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1579572870593" />
     <state x="810" y="152" key="FileChooserDialogImpl" timestamp="1579298735368">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="810" y="152" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1579298735368" />
-    <state width="437" height="176" key="Git.Branch.Popup" timestamp="1579411155633">
+    <state width="441" height="180" key="Git.Branch.Popup" timestamp="1579572850616">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="437" height="176" key="Git.Branch.Popup/0.0.1536.834@0.0.1536.834" timestamp="1579411155633" />
-    <state width="655" height="273" key="GridCell.Tab.0.bottom" timestamp="1579572345083">
+    <state width="441" height="180" key="Git.Branch.Popup/0.0.1536.834@0.0.1536.834" timestamp="1579572850616" />
+    <state width="667" height="273" key="GridCell.Tab.0.bottom" timestamp="1580008913126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="655" height="273" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579572345083" />
-    <state width="655" height="273" key="GridCell.Tab.0.center" timestamp="1579572345082">
+    <state width="667" height="273" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580008913126" />
+    <state width="667" height="273" key="GridCell.Tab.0.center" timestamp="1580008913125">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="655" height="273" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1579572345082" />
-    <state width="655" height="273" key="GridCell.Tab.0.left" timestamp="1579572345082">
+    <state width="667" height="273" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580008913125" />
+    <state width="667" height="273" key="GridCell.Tab.0.left" timestamp="1580008913125">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="655" height="273" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1579572345082" />
-    <state width="655" height="273" key="GridCell.Tab.0.right" timestamp="1579572345082">
+    <state width="667" height="273" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580008913125" />
+    <state width="667" height="273" key="GridCell.Tab.0.right" timestamp="1580008913125">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="655" height="273" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1579572345082" />
+    <state width="667" height="273" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580008913125" />
     <state width="1495" height="234" key="GridCell.Tab.1.bottom" timestamp="1579307747725">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -356,30 +368,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="189" y="222" width="1160" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1579525779590" />
-    <state x="626" y="139" key="Vcs.Push.Dialog.v2" timestamp="1579413769398">
+    <state x="93" y="93" width="1350" height="648" key="ShowDiffWithBranchDialog" timestamp="1579572870593">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="626" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579413769398" />
-    <state x="834" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1579568455536">
+    <state x="93" y="93" width="1350" height="648" key="ShowDiffWithBranchDialog/0.0.1536.834@0.0.1536.834" timestamp="1579572870593" />
+    <state x="626" y="139" key="Vcs.Push.Dialog.v2" timestamp="1579572450992">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="834" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579568455536" />
-    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579484615442">
+    <state x="626" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579572450992" />
+    <state x="834" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1579929305598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1579484615442" />
-    <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579413657238">
+    <state x="834" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579929305598" />
+    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580008281858">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1579413657238" />
-    <state x="189" y="0" key="new project wizard" timestamp="1579421622016">
+    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1580008281858" />
+    <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579572620258">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="189" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1579421622016" />
-    <state x="426" y="189" key="run.anything.popup" timestamp="1579503634155">
+    <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1579572620258" />
+    <state x="473" y="192" key="git4idea.merge.GitPullDialog" timestamp="1579572807398">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="426" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1579503634155" />
+    <state x="473" y="192" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1579572807398" />
+    <state x="189" y="0" key="new project wizard" timestamp="1579572509485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="189" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1579572509485" />
+    <state x="426" y="189" key="run.anything.popup" timestamp="1579929536049">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="426" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1579929536049" />
     <state x="828" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1579524165742">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

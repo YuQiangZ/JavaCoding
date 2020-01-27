@@ -2,12 +2,12 @@ package com.yuqiangz.java;
 
 import org.junit.Test;
 
-import java.sql.SQLOutput;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.concurrent.Callable;
+
 
 /**
  jdk 8之前的日期时间的API测试
