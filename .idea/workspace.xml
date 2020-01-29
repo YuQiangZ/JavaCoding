@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0ee2eea-44ee-4c9b-a1ff-a0092cc45e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/day03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/exer1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/exer1/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/exer1/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/java/SeasonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/src/com/yuqiangz/java1/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/day04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/internet/TcpTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/internet/UdpTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/io/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/io/BufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/java04/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/java04/DAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/com/yuqiangz/java04/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/day05.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/src/com/yuqiangz/java/DataTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/src/com/yuqiangz/java/DataTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +49,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1WXZVgdo70ZiqLa8FnrWV6Rgxy9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -61,24 +67,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day01/src/com/yuqiangz/java1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day04/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intellJ_IDEA\JavaCode\day04\src\com\yuqiangz\io" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intellJ_IDEA\JavaCode\day04\src" />
       <recent name="E:\intellJ_IDEA\JavaCode\day01\src\com\yuqiangz\java1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.test2">
-    <configuration name="SeasonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.SeasonTest" />
-      <module name="day03" />
+  <component name="RunManager" selected="JUnit.TcpTest1.client">
+    <configuration name="DAOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java04.DAOTest" />
+      <module name="day04" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuqiangz.java.*" />
+          <option name="PATTERN" value="com.yuqiangz.java04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,17 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day03" />
+    <configuration name="BufferTest.bufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuqiangz.exer1.*" />
+          <option name="PATTERN" value="com.yuqiangz.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuqiangz.exer1" />
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.exer1.EmployeeTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.yuqiangz.io" />
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.io.BufferTest" />
+      <option name="METHOD_NAME" value="bufferedStreamTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,33 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDK8DateTimeTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02" />
+    <configuration name="TcpTest1.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuqiangz.java.*" />
+          <option name="PATTERN" value="com.yuqiangz.internet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuqiangz.java" />
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.JDK8DateTimeTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.yuqiangz.internet" />
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.internet.TcpTest1" />
+      <option name="METHOD_NAME" value="client" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDK8DateTimeTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02" />
+    <configuration name="TcpTest1.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuqiangz.java.*" />
+          <option name="PATTERN" value="com.yuqiangz.internet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yuqiangz.java" />
-      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.java.JDK8DateTimeTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.yuqiangz.internet" />
+      <option name="MAIN_CLASS_NAME" value="com.yuqiangz.internet.TcpTest1" />
+      <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TcpTest1.client" />
+        <item itemvalue="JUnit.TcpTest1.server" />
+        <item itemvalue="JUnit.BufferTest.bufferedStreamTest" />
+        <item itemvalue="Application.DAOTest" />
         <item itemvalue="JUnit.EmployeeTest.test2" />
-        <item itemvalue="JUnit.EmployeeTest.test1" />
-        <item itemvalue="Application.SeasonTest" />
-        <item itemvalue="JUnit.JDK8DateTimeTest.test3" />
-        <item itemvalue="JUnit.JDK8DateTimeTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +204,7 @@
       <workItem from="1579568453566" duration="8017000" />
       <workItem from="1579833860774" duration="664000" />
       <workItem from="1579834586747" duration="1875000" />
-      <workItem from="1579928400277" duration="6167000" />
+      <workItem from="1579928400277" duration="21944000" />
     </task>
     <task id="LOCAL-00001" summary="正式的使用版本控制持续管理代码">
       <created>1579298248041</created>
@@ -224,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579572419756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="一月二十八号，回南京第二天，继续泛型的学习">
+      <created>1580155244895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580155244895</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,26 +317,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="正式的使用版本控制持续管理代码" />
     <MESSAGE value="synchronized线程同步以及死锁的发生" />
     <MESSAGE value="synchronized线程同步以及死锁的发生&#10;#有两个警告" />
     <MESSAGE value="day01主要是关于java多线程的代码说明" />
     <MESSAGE value="还差一个compare没写" />
-    <option name="LAST_COMMIT_MESSAGE" value="还差一个compare没写" />
+    <MESSAGE value="一月二十八号，回南京第二天，继续泛型的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="一月二十八号，回南京第二天，继续泛型的学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-55" y="69" key="#Inspections" timestamp="1579576739534">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-55" y="69" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1579576739534" />
-    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1580007954313">
+    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1580161814558">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1580007954313" />
-    <state x="707" y="0" key="CommitChangelistDialog2" timestamp="1579572417863">
+    <state x="971" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1580161814558" />
+    <state x="827" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580158738234">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="707" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579572417863" />
+    <state x="827" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1580158738234" />
+    <state x="707" y="0" key="CommitChangelistDialog2" timestamp="1580155242958">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="707" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1580155242958" />
     <state x="294" y="63" width="1228" height="694" key="DiffContextDialog" timestamp="1579572870593">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -332,22 +355,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="441" height="180" key="Git.Branch.Popup/0.0.1536.834@0.0.1536.834" timestamp="1579572850616" />
-    <state width="667" height="273" key="GridCell.Tab.0.bottom" timestamp="1580008913126">
+    <state width="662" height="275" key="GridCell.Tab.0.bottom" timestamp="1580261913943">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="667" height="273" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580008913126" />
-    <state width="667" height="273" key="GridCell.Tab.0.center" timestamp="1580008913125">
+    <state width="662" height="275" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580261913943" />
+    <state width="662" height="275" key="GridCell.Tab.0.center" timestamp="1580261913943">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="667" height="273" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580008913125" />
-    <state width="667" height="273" key="GridCell.Tab.0.left" timestamp="1580008913125">
+    <state width="662" height="275" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580261913943" />
+    <state width="662" height="275" key="GridCell.Tab.0.left" timestamp="1580261913943">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="667" height="273" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580008913125" />
-    <state width="667" height="273" key="GridCell.Tab.0.right" timestamp="1580008913125">
+    <state width="662" height="275" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580261913943" />
+    <state width="662" height="275" key="GridCell.Tab.0.right" timestamp="1580261913943">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="667" height="273" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580008913125" />
+    <state width="662" height="275" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580261913943" />
     <state width="1495" height="234" key="GridCell.Tab.1.bottom" timestamp="1579307747725">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -372,18 +395,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="ShowDiffWithBranchDialog/0.0.1536.834@0.0.1536.834" timestamp="1579572870593" />
-    <state x="626" y="139" key="Vcs.Push.Dialog.v2" timestamp="1579572450992">
+    <state x="626" y="139" key="Vcs.Push.Dialog.v2" timestamp="1580155288145">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="626" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579572450992" />
+    <state x="626" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1580155288145" />
     <state x="834" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1579929305598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="834" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579929305598" />
-    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580008281858">
+    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580191063363">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1580008281858" />
+    <state x="870" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1580191063363" />
     <state x="818" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579572620258">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -392,10 +415,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="473" y="192" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1579572807398" />
-    <state x="189" y="0" key="new project wizard" timestamp="1579572509485">
+    <state x="70" y="0" key="new project wizard" timestamp="1580265821169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="189" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1579572509485" />
+    <state x="70" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1580265821169" />
     <state x="426" y="189" key="run.anything.popup" timestamp="1579929536049">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -404,5 +427,16 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="828" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1579524165742" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/day04/src/com/yuqiangz/java04/User.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
